@@ -1,0 +1,23 @@
+{
+  "name": "xar",
+  "version": "1.0.0",
+  "description": "extensible archiver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/finnp/xar.git"
+  },
+  "keywords": [
+    "archive",
+    "macos"
+  ],
+  "author": "Finn Pauls",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finnp/xar/issues"
+  },
+  "homepage": "https://github.com/finnp/xar"
+}
