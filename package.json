@@ -22,6 +22,9 @@
   "homepage": "https://github.com/finnp/xar",
   "dependencies": {
     "minimist": "^1.2.0",
+    "readdirp": "^2.0.0",
+    "through2": "^2.0.0",
+    "xml": "^1.0.0",
     "xml2js": "^0.4.15"
   }
 }
