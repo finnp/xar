@@ -4,7 +4,7 @@
   "description": "extensible archiver",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,9 @@
     "through2": "^2.0.0",
     "xml": "^1.0.0",
     "xml2js": "^0.4.15"
+  },
+  "devDependencies": {
+    "tape": "^4.2.2",
+    "concat-stream": "^1.5.1"
   }
 }

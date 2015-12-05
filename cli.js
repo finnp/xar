@@ -11,7 +11,7 @@ var data
 
 if (argv._[0] === 'extract') {
   data = fs.readFileSync(argv._[1])
-  var outDir = argv._[2]
+  var outDir = argv._[2] || '.'
 
   extract(data, function (err, file, data) {
     if (err) return console.error(err)
