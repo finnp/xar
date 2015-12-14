@@ -8,8 +8,10 @@ It currently does not support actual compression and should be used with caution
 Pack a directory like:
 ```js
 var xar = require('xar')
-xar.pack(dir).pipe(process.stdout)
+xar.pack(dir, {compresssion: 'gzip'}).pipe(process.stdout)
 ```
+Compression formats supported: `none`, `gzip`
+Default is `gzip`
 
 Unpack a directory like:
 ```js

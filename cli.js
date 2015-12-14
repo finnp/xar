@@ -33,5 +33,5 @@ if (argv._[0] === 'extract') {
   })
 } else if (argv._[0] === 'create') {
   var dir = argv._[1]
-  pack(dir).pipe(process.stdout)
+  pack(dir, argv).pipe(process.stdout)
 }
