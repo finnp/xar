@@ -17,12 +17,12 @@ Unpack a directory like:
 ```js
 var fs =require('fs')
 
-xar.unpack(data, function (err, file, data) {
+xar.unpack(data, function (err, file, content) {
   if (err) return console.error(err)
   if (file.type[0] === 'directory') {
-    fs.mkdirSync(p)
+    fs.mkdirSync(file.path)
   } else {
-    fs.writeFileSync(p, data)
+    fs.writeFileSync(file.path, content)
   }
 })
 ```
