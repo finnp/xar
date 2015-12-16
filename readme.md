@@ -1,5 +1,5 @@
 # xar
-[![NPM](https://nodei.co/npm/xar.png)](https://nodei.co/npm/xar/)
+[![NPM](https://nodei.co/npm/xar.png)](https://nodei.co/npm/xar/) [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 This is a very basic/alpha version of a JS [Mac OSX xar](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/xar.1.html) implementation.
 
