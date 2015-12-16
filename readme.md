@@ -3,8 +3,6 @@
 
 This is a very basic/alpha version of a JS [Mac OSX xar](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/xar.1.html) implementation.
 
-It currently does not support actual compression and should be used with caution.
-
 Pack a directory like:
 ```js
 var xar = require('xar')
