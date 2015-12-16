@@ -1,6 +1,6 @@
 {
   "name": "xar",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "extensible archiver",
   "main": "index.js",
   "scripts": {
