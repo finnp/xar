@@ -33,8 +33,11 @@ It is not possible to create the archive in a streaming fashion though, since
 it has a TOC in the beginning. The file is constructed in a tmp file, which is then
 streamed to you.
 
-## xar.unpack(file, cb)
+## xar.unpack(buffer, cb)
 
 callback called for each file with `(err, file, content)`
 
 file is the parsed header from the TOC
+
+Note that this is mainly made for testing the `pack` function, if someone
+wants to improve it, feel free to create a PR!
