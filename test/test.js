@@ -13,6 +13,7 @@ test('pack und unpack', function (t) {
         files[file.path] = content
         nFiles--
         if (nFiles === 0) end()
+        if (nFiles < 0) t.fail()
       })
     }))
   function end () {
@@ -33,6 +34,7 @@ test('pack und unpack with gzip', function (t) {
         files[file.path] = content
         nFiles--
         if (nFiles === 0) end()
+        if (nFiles < 0) t.fail()
       })
     }))
   function end () {
